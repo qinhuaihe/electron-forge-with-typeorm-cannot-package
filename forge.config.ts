@@ -38,6 +38,21 @@ const config: ForgeConfig = {
         ],
       },
     }),
+    {
+      name: "@timfish/forge-externals-plugin",
+      config:
+        {
+        "externals": ["sqlite3"],
+        "includeDeps": true
+      }
+    }
+    // [
+    //   "@timfish/forge-externals-plugin",
+    //   {
+    //     "externals": ["native-hello-world"],
+    //     "includeDeps": true
+    //   }
+    // ]
   ],
 };
 

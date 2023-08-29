@@ -18,4 +18,8 @@ export const mainConfig: Configuration = {
     warnings: false,
     errorDetails: true,
   },
+  externals: {
+    sqlite3: 'commonjs2 sqlite3'
+  }
+  // externals: ['sqlite3']
 };
